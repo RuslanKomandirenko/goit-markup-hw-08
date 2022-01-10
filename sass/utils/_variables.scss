@@ -1,0 +1,22 @@
+/* цвет основного текста #757575  */
+/* вторичный цвет текста #212121 */
+/* белый #FFFFFF*/
+/* акцент #2196F3 */
+/* цвет в лого #000000 */
+/* цвет фона #E5E5E5 */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --logo-color: #000000;
+  --hero-text-color: #ffffff;
+  --primary-bg-color: #ffffff;
+  --hero-bg-color: #2f303a;
+  --footer-link-color: rgba(255, 255, 255, 0.6);
+  --button-bg-hover-color: #188ce8;
+  --header-border-color: #ececec;
+  --feature-bg-color: #f5f4fa;
+  --social-icons-color: #afb1b8;
+  --footer-bg-icons-color: rgba(255, 255, 255, 0.1);
+}

@@ -1,0 +1,106 @@
+.hero__button {
+  border: transparent;
+  color: var(--hero-text-color);
+  background-color: var(--accent-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 4px;
+  min-width: 200px;
+  padding: 10px 32px;
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 0;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: var(--button-bg-hover-color);
+  }
+}
+
+.filter {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  list-style: none;
+  color: var(--title-text-color);
+  margin-top: 0;
+  margin-bottom: 50px;
+  padding: 0;
+}
+
+.filter .filter__item + .filter__item {
+  display: flex;
+  margin-left: 8px;
+}
+
+.filter .filter__button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--title-text-color);
+  max-width: 145px;
+  padding: 6px 22px;
+  margin-top: 0;
+  margin-bottom: 0;
+  border: 0;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    color: var(--hero-text-color);
+    cursor: pointer;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
+}
+
+.modal-button {
+  border: transparent;
+  width: 200px;
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--hero-text-color);
+  padding: 10px 55px;
+  margin: 0 auto;
+  margin-top: 25px;
+  &:hover,
+  &:focus {
+    background: var(--button-bg-hover-color);
+    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+.form__button-subscribe {
+  border: transparent;
+  width: 200px;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--hero-text-color);
+  margin-left: 12px;
+  padding: 10px 28px;
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
